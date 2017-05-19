@@ -1,0 +1,328 @@
+.subject-wrapper {
+    padding: 20px 80px 30px
+}
+
+.sidebar-container {
+    padding: 16px 22px
+}
+
+ul {
+    list-style: none;
+    padding: 0
+}
+
+.subject-title {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 16px
+}
+
+.subject-container {
+    padding: 15px 0
+}
+
+.subject-container .subject-item {
+    -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.22);
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 20px 36px 14px 36px;
+    margin-bottom: 20px
+}
+
+.subject-item .si-header {
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.subject-item .si-header .si-name {
+    display: inline-block
+}
+
+.subject-item .si-header .si-new-exam {
+    float: right;
+    position: relative;
+    right: 0;
+    top: 0;
+    line-height: 20px
+}
+
+.subject-item .si-take-exam {
+    display: block;
+    font-size: 14px;
+    color: #009cff
+}
+
+.subject-item .si-take-exam.general .btn-take-exam {
+    color: #333;
+    background-color: #ffc000
+}
+
+.subject-item .si-take-exam.general .si-le-item-left {
+    color: red
+}
+
+.btn.btn-take-exam {
+    font-size: 14px;
+    color: white;
+    background-color: #009cff;
+    padding: 0 15px;
+    line-height: 1.5;
+    min-width: 80px
+}
+
+.btn.btn-take-exam:hover {
+    color: #333
+}
+
+.subject-item .si-list-exam {
+    list-style: none;
+    padding: 0 0 18px 0;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.subject-item .si-list-exam>li {
+    padding: 5px 0 9px 0;
+    line-height: 20px
+}
+
+.subject-item .si-le-item-left {
+    display: inline-block;
+    max-width: 270px;
+    padding-bottom: 1px;
+    vertical-align: middle
+}
+
+.subject-item .si-le-item-left i {
+    margin-right: 14px;
+    font-size: 14px;
+    vertical-align: middle
+}
+
+.subject-item .si-le-item-left span {
+    vertical-align: middle
+}
+
+.subject-item .si-le-item-right {
+    display: inline-block;
+    float: right
+}
+
+.subject-item .si-footer {
+    text-align: center;
+    margin-top: 23px
+}
+
+.btn-view-all {
+    padding: 3px 6px;
+    border-radius: 8px
+}
+
+.btn-view-all:hover {
+    color: #000000;
+    background-color: #ffc000
+}
+
+.back {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.0;
+    font-size: 30px
+}
+
+.right-h {
+    float: right;
+    display: inline-block
+}
+
+.right-h .social-link {
+    float: left;
+    padding-top: 25px;
+    overflow: hidden
+}
+
+.sidebar-container .sidebar-header {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.sidebar-container .sidebar-header .sh-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.sidebar-container .sidebar-header .sh-tooltip {
+    height: 12px;
+    width: 12px;
+    font-size: 9px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #009cff;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+    margin-left: 5px;
+    vertical-align: top
+}
+
+.sidebar-container .sidebar-item {
+    background-color: #f3f6f9;
+    border-radius: 5px
+}
+
+.sidebar-container .sidebar-score {
+    padding: 10px 32px 3px 32px;
+    position: relative
+}
+
+.sidebar-container .sidebar-score .ss-super {
+    width: 80px;
+    position: absolute;
+    top: -20px;
+    left: -30px
+}
+
+.sidebar-container .sidebar-score .ss-super img {
+    width: 100%
+}
+
+.sidebar-container .sidebar-score .sst-title {
+    font-size: 14px
+}
+
+.sidebar-container .sidebar-score .ss-total {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e8eb
+}
+
+.sidebar-container .sidebar-score .ss-total .sst-title {
+    margin-bottom: 6px
+}
+
+.sidebar-container .sidebar-score .ss-total .sst-score {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #f25353;
+    border-radius: 30px;
+    color: #ffde00;
+    padding: 13px 0;
+    text-align: center
+}
+
+.sidebar-container .sidebar-score .ss-detail ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px
+}
+
+.sidebar-container .sidebar-score .ss-detail ul>li {
+    display: block;
+    padding-top: 6px
+}
+
+.ss-detail ul>li .ss-subject-name {
+    display: inline-block
+}
+
+.ss-detail ul>li .ss-subject-score {
+    float: right;
+    color: #009cff
+}
+
+.sidebar-container .sidebar-chart {
+    margin-top: 16px
+}
+
+.sidebar-container .chart-container {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px
+}
+
+.sidebar-container .sch-dropdown-container {
+    color: #009cff;
+    float: right;
+    cursor: pointer;
+    position: relative;
+    font-size: 12px;
+    line-height: 15px
+}
+
+.sidebar-container .sch-dropdown-container .sch-dropdown {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    background: #eee;
+    color: #009cff
+}
+
+.sidebar-container .sch-dropdown-container:hover .sch-dropdown {
+    display: block;
+    visibility: visible
+}
+
+.sidebar-container .sidebar-chart .sc-header {
+    display: block;
+    margin: 0 14px 0 20px;
+    padding: 16px 0 16px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #e5e8eb
+}
+
+.sidebar-container .sidebar-chart .sch-title {
+    display: inline-block
+}
+
+.sch-dropdown-container span {
+    font-weight: bold
+}
+
+.sch-dropdown-container span i {
+    margin-right: 5px
+}
+
+.sch-dropdown-container .sch-dropdown a {
+    color: #009cff;
+    display: block;
+    padding: 2px 2px;
+    font-size: 11px
+}
+
+.sch-dropdown-container .sch-dropdown a.active, .sch-dropdown-container .sch-dropdown a:hover {
+    background-color: #ddd
+}
+
+.sidebar-footer {
+    text-align: center;
+    margin: 20px 0
+}
+
+.sidebar-footer .btn-view-all {
+    text-transform: uppercase
+}
+
+.subject-nav {
+    position: absolute;
+    top: -58px;
+    left: 40%;
+    transform: translateX(-40%);
+    border: none
+}
+
+.subject-nav.nav-pills>li.active>a, .subject-nav.nav-pills>li.active>a:focus, .subject-nav.nav-pills>li.active>a:hover {
+    background-color: #0168b1;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}

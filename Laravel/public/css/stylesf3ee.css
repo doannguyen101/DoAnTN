@@ -1,0 +1,934 @@
+#fork {
+    float: right;
+    margin: 0
+}
+
+#copy {
+    display: inline-block;
+    margin: 0
+}
+
+#title {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0;
+    line-height: 34px
+}
+
+#title img {
+    vertical-align: middle
+}
+
+#calltoaction {
+    float: right;
+    margin: 0 2em;
+    line-height: 34px;
+    color: white
+}
+
+#download {
+    float: right;
+    background: white;
+    padding: .5em 1.6em;
+    color: #285E85;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    border-radius: 3px
+}
+
+#download:active {
+    position: relative;
+    top: 1px;
+    box-shadow: none
+}
+
+.mycol {
+    padding-top: 14px
+}
+
+#donate {
+    margin-top: 15px
+}
+
+#my-form {
+    border: 1px solid #ccc;
+    padding: 3em;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2)
+}
+
+#comments {
+    width: 350px;
+    height: 100px
+}
+
+.ideal-button {
+    height: 33px;
+    line-height: 33px
+}
+
+.clear>p {
+    font-size: 12px
+}
+
+ul.month {
+    width: 110px;
+    margin: 0 2px
+}
+
+ul.rmonth {
+    width: 110px;
+    margin: 0 2px
+}
+
+ul.day {
+    width: 100px
+}
+
+.forget_password {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative
+}
+
+.forget_password .header {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #0072bc;
+    text-align: center
+}
+
+.forget_password .group-btn {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #127cc0
+}
+
+.forget_password .content {
+    margin-top: 40px;
+    min-height: 170px;
+    border: 1px solid #999;
+    border-radius: 4px
+}
+
+.forget_password .content .title {
+    height: 45px;
+    font-family: "arial";
+    font-size: 18px;
+    text-align: center;
+    background-color: #0066cc;
+    color: #fff;
+    line-height: 48px
+}
+
+.forget_password .content .body {
+    width: 575px;
+    margin: 0 auto;
+    min-height: 160px
+}
+
+.forget_password .content .body .suggest {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 20px
+}
+
+.forget_password .content .body span {
+    font-weight: bold
+}
+
+.support-phone {
+    width: 50%;
+    float: left
+}
+
+.support-email {
+    width: 50%;
+    float: left
+}
+
+.img-email {
+    background-image: url("../img/phone-email.html");
+    background-position: 23px 0;
+    width: 23px;
+    height: 19px;
+    float: left;
+    margin-left: 32px;
+    margin-right: 16px
+}
+
+.img-phone {
+    background-image: url("../img/phone-email.html");
+    background-position: 0 0;
+    width: 23px;
+    height: 19px;
+    float: left
+}
+
+.support-thpt {
+    margin-left: 32px
+}
+
+.support-thcs {
+    margin-left: 32px
+}
+
+.email-hotro {
+    margin-left: 32px
+}
+
+.email-hotro a:link {
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: none
+}
+
+.input-row {
+    height: 50px
+}
+
+.input-lbl {
+    float: left;
+    width: 23%;
+    line-height: 42px;
+    margin-left: 36px
+}
+
+.input-inp {
+    float: left;
+    width: 58%
+}
+
+.input-submit {
+    text-align: center
+}
+
+.kp-hotro, .kp-phone {
+    display: none
+}
+
+.bs-login-modal-sm .inp-row {
+    height: 50px
+}
+
+.bs-login-modal-sm .modal-header {
+    background-color: #0066cc
+}
+
+.bs-login-modal-sm .modal-header h4 {
+    text-align: center;
+    color: #fff
+}
+
+.logo-img {
+    width: 37px;
+    height: 36px;
+    float: left;
+    background-image: url("../img/logo-img.html")
+}
+
+.modal-footer .btn-groups {
+    width: 100%;
+    margin: 0 36px;
+    position: relative
+}
+
+.modal-footer .btn-groups .other-login-btn {
+    width: 39px;
+    height: 39px;
+    margin: 0 12px;
+    float: left;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    cursor: pointer
+}
+
+.modal-footer .btn-groups .other-login-btn img {
+    width: 26px;
+    height: 26px
+}
+
+.modal-footer .btn-groups .facebook-btn {
+    background-color: #3948ab
+}
+
+.modal-footer .btn-groups .google-plus-btn {
+    background-color: #d74314
+}
+
+.modal-footer .btn-groups .yahoo-btn {
+    background-color: #ab46bb
+}
+
+.dangkylbl {
+    width: 48%;
+    float: left;
+    position: relative;
+    left: 55px
+}
+
+.quenmatkhautbl {
+    float: right;
+    width: 48%;
+    position: relative;
+    left: 13px
+}
+
+.reg-row {
+    color: #0066cc;
+    height: 30px!important
+}
+
+#login-btn {
+    float: right
+}
+
+.bs-login-modal-sm .modal-footer {
+    padding-top: 16px
+}
+
+.ui-tooltip {
+    padding: 5px 8px;
+    background-color: #2a70b8;
+    border: none;
+    color: #fff;
+    font-size: 13px
+}
+
+.signupforms {
+    width: 526px;
+    margin: 0 auto
+}
+
+.signupforms .title-signup {
+    font-size: 29.5px;
+    color: #0072bc;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.title-signup.font-32 {
+    font-size: 32px
+}
+
+.signupforms .sub-title-signup {
+    font-size: 16.5px;
+    color: #000;
+    margin-top: 3px
+}
+
+.signupforms .row-signup {
+    margin-top: 20px
+}
+
+.signupforms .row-signup.footer-text {
+    margin-top: 10px
+}
+
+.signupforms #usernametxt, .signupforms #emailtxt {
+    width: 100%
+}
+
+.signupforms .password-hold-left {
+    width: 48%;
+    float: left
+}
+
+.signupforms .password-hold-right {
+    width: 48%;
+    float: right
+}
+
+.signupforms #passwordtxt, .signupforms #repaswordtxt {
+    width: 100%
+}
+
+.signupforms .light-hight-left {
+    min-width: 45%!important;
+    border-top: 1px solid #a9a9a9;
+    margin-top: 10px;
+    float: left
+}
+
+.signupforms .light-hight-right {
+    min-width: 45%!important;
+    border-top: 1px solid #a9a9a9;
+    margin-top: 10px;
+    float: right
+}
+
+.signupforms .or-txt {
+    width: 10%;
+    float: left;
+    text-align: center;
+    color: #303030
+}
+
+.signupforms .other-login-txt {
+    font-size: 16px;
+    text-align: center;
+    color: #000
+}
+
+.signupforms .btn-groups {
+    margin: 0 auto
+}
+
+.signupforms .btn-groups .other-login-btn {
+    width: 167px;
+    height: 41px;
+    margin: 0 12px 0 0;
+    float: left;
+    text-align: center;
+    cursor: pointer
+}
+
+.signupforms .btn-groups .other-login-btn:last-child {
+    margin: 0
+}
+
+.signupforms .btn-groups .other-login-btn a {
+    width: 167px;
+    height: 41px;
+    display: inline-block
+}
+
+.signupforms .btn-groups .other-login-btn a.fb-social, .signupforms .btn-groups .other-login-btn a.google-social, .signupforms .btn-groups .other-login-btn a.yahoo-social {
+    background: none
+}
+
+.signupforms .register-btn {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    line-height: 53px;
+    background-color: #0072bc;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none
+}
+
+.signupforms .footer-txt {
+    font-size: 12px;
+    color: #000
+}
+
+.signupforms .footer-txt p {
+    margin-bottom: 2px;
+    text-align: center
+}
+
+.signupforms .error {
+    color: #a94442
+}
+
+.signupforms input.error {
+    border: 1px solid #a94442
+}
+
+.signupforms .error2 {
+    color: #a94442
+}
+
+.signupforms input {
+    display: table-cell;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #9f978e;
+    border-radius: 4px
+}
+
+.signupforms #emailtxt-error2 {
+    float: left
+}
+
+.search-submit-wr {
+    height: auto
+}
+
+.messageSuccess {
+    font-size: 28px;
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 20px
+}
+
+.messageSuggest {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.messageSubmit {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.clear-both {
+    clear: both
+}
+
+.popover-title {
+    font-weight: bold;
+    border-bottom: none;
+    padding-bottom: 0
+}
+
+.hm-progress {
+    height: 5px;
+    margin: 5px 0 0 0
+}
+
+.comfirmform {
+    margin: 82px auto;
+    width: 540px;
+    border: 1px solid #999;
+    border-radius: 4px
+}
+
+#cfsForm {
+    width: 540px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 3px
+}
+
+#cfsForm .title {
+    font-size: 28px;
+    color: #0072bc;
+    text-align: center;
+    margin-top: 50px
+}
+
+#cfsForm .sub-title {
+    font-size: 14px;
+    margin: 25px;
+    text-align: center
+}
+
+#cfsForm .phone-holder {
+    width: 290px;
+    margin: 32px auto
+}
+
+#cfsForm .suggest {
+    font-size: 12px;
+    margin-bottom: 18px
+}
+
+#cfsForm .suggest span {
+    font-size: 14px
+}
+
+#cfsForm .phone-inp input {
+    width: 100%;
+    text-align: center;
+    color: #000
+}
+
+#cfsForm .sendSMS {
+    margin: 30px auto;
+    text-align: center
+}
+
+.alertMsg {
+    margin-top: 5px
+}
+
+.redirect-link {
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.alertRecover .modal-header {
+    border-bottom: none
+}
+
+.alertRecover .close {
+    color: #0072bc;
+    opacity: 1
+}
+
+.alertRecover .modal-body {
+    font-size: 14px;
+    text-align: center;
+    color: #0072bc;
+    min-height: 110px
+}
+
+.alertRecover .modal-footer {
+    border-top: 5px solid #0072bc;
+    padding: 0
+}
+
+.hotro-wrap {
+    padding-top: 50px
+}
+
+.support-thpt .name {
+    font-weight: bold !important
+}
+
+.support-thpt span {
+    font-weight: normal !important
+}
+
+.support-thpt .phone {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-left: 46px;
+    display: block
+}
+
+.changePass.comfirmform {
+    margin: 50px auto;
+    width: 644px;
+    border: none
+}
+
+.changePass.comfirmform .form-horizontal .control-label {
+    text-align: left;
+    color: #3f403f
+}
+
+#comfirmform .title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    padding-left: 30px
+}
+
+.generalbox {
+    margin-bottom: 15px;
+    text-align: center;
+    border: none
+}
+
+.print_button input[type="submit"] {
+    background: #2A70B8;
+    color: #FFFFff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-top: 15px;
+    min-width: 80px
+}
+
+.alertMsg.recovery {
+    margin-left: 0
+}
+
+.alertMsg.recovery .alert {
+    padding: 10px 5px
+}
+
+.form-horizontal .control-label {
+    text-align: left
+}
+
+.forgotEmail {
+    padding: 5px 10px
+}
+
+.forgotEmail p {
+    margin: 0
+}
+
+.tooltip-inner {
+    max-width: 300px;
+    width: 300px;
+    padding: 5px 8px
+}
+
+.errorbox {
+    text-align: center;
+    margin: 0 auto;
+    border: none
+}
+
+.search-submit-wr {
+    height: auto
+}
+
+.messageSuccess {
+    font-size: 28px;
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 20px
+}
+
+.messageSuggest {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.messageSubmit {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.clear-both {
+    clear: both
+}
+
+.facebook-btn.fb-social, .google-plus-btn.google-social, .yahoo-btn.yahoo-social {
+    background: none
+}
+
+.light-forgot {
+    font-size: 12px
+}
+
+.loginv2-register {
+    width: 50%;
+    display: inline-block;
+    text-align: right
+}
+
+.loginv2-register span {
+    color: #505050
+}
+
+#profile-form .sub-title-signup {
+    margin-top: 5px
+}
+
+#profile-form input[type="text"] {
+    width: 376px;
+    height: 30px;
+    padding: 6px
+}
+
+#profile-form .select2-container .select2-selection--single {
+    height: 30px;
+    border: 1px solid #ccc
+}
+
+#profile-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 30px
+}
+
+#profile-form label.lbl {
+    width: 125px;
+    margin-top: 8px;
+    float: left
+}
+
+#profile-form label.error {
+    margin-left: 130px;
+    width: 373px;
+    float: right
+}
+
+#profile-form select {
+    width: 376px
+}
+
+.btnChangePass {
+    text-align: left
+}
+
+.row-signup.mg50 {
+    margin-top: 50px
+}
+
+.row-signup.mg40 {
+    margin-top: 40px
+}
+
+.row-signup.mg30 {
+    margin-top: 30px
+}
+
+.row-signup.mg16 {
+    margin-top: 16px
+}
+
+@media only screen and (max-width:768px) {
+    #main {
+        padding: 30px 0
+    }
+    #my-form {
+        padding: 1.5em;
+        margin-top: 30px
+    }
+    #calltoaction {
+        float: left;
+        margin: 0
+    }
+    #download, #title, #calltoaction {
+        float: left;
+        clear: both
+    }
+    #download {
+        float: left;
+        margin-top: .8em
+    }
+    .signupforms {
+        max-width: 100%
+    }
+    .signupforms .title-signup {
+        font-size: 20px !important
+    }
+    .signupforms .sub-title-signup {
+        margin-top: 10px;
+        font-size: 14px !important
+    }
+    .forget_password {
+        max-width: 100%
+    }
+    .forget_password .header {
+        margin-top: 0 !important
+    }
+    .forget_password .group-btn {
+        margin-top: 10px;
+        text-align: center
+    }
+    .forget_password .content {
+        margin: 30px auto 0 auto
+    }
+    .forget_password .content .body {
+        max-width: 100%;
+        padding: 0 15px
+    }
+    .forget_password .content .body .suggest {
+        font-size: 13px !important
+    }
+    .input-row {
+        padding: 0 10px;
+        font-size: 12px
+    }
+    .input-lbl {
+        width: 100% !important;
+        margin-left: 0 !important
+    }
+    .input-inp {
+        width: 100% !important
+    }
+    .hotro-wrap {
+        padding-top: 20px !important
+    }
+    .support-phone {
+        width: 100% !important;
+        margin-bottom: 15px
+    }
+    .img-phone {
+        margin-left: 32px
+    }
+    .img-email {
+        margin-right: 4px !important
+    }
+    .support-thpt .phone, .support-thpt .fee {
+        margin-left: 26px !important
+    }
+    .changePass.comfirmform {
+        width: 100%;
+        margin: 0 auto
+    }
+    #footer {
+        margin-top: 0
+    }
+    #profile-form input[type="text"] {
+        width: 345px
+    }
+    #profile-form select {
+        width: 345px
+    }
+    .download-link li {
+        width: 100%;
+        padding: 0
+    }
+    #comfirmform .title {
+        padding-left: 120px
+    }
+    #profile-form label.lbl {
+        width: 160px
+    }
+    .signupforms .btn-groups .other-login-btn {
+        display: block;
+        margin: 0 25% 15px 25%
+    }
+    .signupforms .btn-groups .other-login-btn:last-child {
+        margin: 0 25% 15px 25%
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .signupforms {
+        padding: 0 20px
+    }
+    .btnChangePass {
+        text-align: center
+    }
+    #comfirmform .title {
+        padding-left: 0
+    }
+    #profile-form select {
+        width: 100%
+    }
+    #profile-form input[type="text"] {
+        width: 100%
+    }
+    #cfsForm {
+        max-width: 90%
+    }
+    #cfsForm .title {
+        font-size: 24px
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .btnChangePass {
+        text-align: center
+    }
+    #comfirmform .title {
+        padding-left: 0
+    }
+}
+
+.se-box-note {
+    font-size: 11px;
+    font-style: italic;
+    margin: 15px 5%;
+    text-align: center
+}

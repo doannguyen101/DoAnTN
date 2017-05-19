@@ -1,0 +1,99 @@
+.es-carousel-wrapper {
+    position: relative;
+    position: relative
+}
+
+.es-carousel {
+    overflow: hidden
+}
+
+.es-carousel ul {
+    display: none
+}
+
+.es-carousel ul li {
+    height: 135px;
+    float: left;
+    display: block;
+    margin-top: 20px
+}
+
+.es-carousel ul li>a {
+    position: relative;
+    display: block;
+    height: 100%;
+    border-style: solid;
+    border-color: #222;
+    -webkit-touch-callout: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.es-carousel ul li.selected a {
+    border-color: #fff;
+    opacity: 1.0
+}
+
+.es-carousel ul li a img {
+    display: block;
+    border: none;
+    width: 100%;
+    height: 165px;
+    border-radius: 5px
+}
+
+.es-nav span {
+    position: absolute;
+    top: 39%;
+    left: -14px;
+    background: transparent url(../img/arr_next1-.png) no-repeat top left;
+    width: 29px;
+    height: 29px;
+    margin-top: -13px;
+    text-indent: -9000px;
+    cursor: pointer;
+    opacity: 1;
+    z-index: 3
+}
+
+.es-nav span.es-nav-next, .carousel-control.right {
+    right: 8px;
+    left: auto;
+    background-position: top right;
+    right: -15px
+}
+
+.es-nav span:hover {
+    opacity: 1.0
+}
+
+.es-carousel li>a:hover {
+    text-decoration: none
+}
+
+.es-carousel li a .learn-online {
+    color: #154991;
+    font-size: 18px;
+    position: absolute;
+    display: block;
+    width: 93%;
+    text-transform: uppercase;
+    z-index: 1;
+    padding: 10px;
+    opacity: 0.7;
+    top: 70px;
+    background-color: #FFF
+}
+
+.es-carousel li a p {
+    color: #353535;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 40px;
+    margin: 10px 0;
+    margin-bottom: 0
+}

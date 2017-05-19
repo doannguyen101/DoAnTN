@@ -1,0 +1,402 @@
+.hocmai_modal .modal-header {
+    background: #f7c57c url(../img/images/bg_thele.jpg) no-repeat
+}
+
+.hocmai_modal .modal-title {
+    font-size: 34px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.hocmai_modal .modal-content .close span {
+    font-size: 50px
+}
+
+.hocmai_modal .the_le, .hocmai_modal .mar_gin {
+    background: #fff
+}
+
+.hocmai_modal .mar_gin b {
+    font-size: 13px;
+    color: #000000
+}
+
+.hocmai_modal .mar_gin li {
+    font-size: 13px;
+    color: #000;
+    -webkit-text-shadow: 0 0 0 #000;
+    text-shadow: 0 0 0 #000
+}
+
+.hocmai_modal .mar_gin {
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 13px;
+    -webkit-text-shadow: 0 0 0 #000;
+    text-shadow: 0 0 0 #000
+}
+
+.hocmai_modal .the_le {
+    line-height: 2
+}
+
+.start_exam_click {
+    background: #d82d2d;
+    width: 300px;
+    height: auto;
+    font-size: 32px;
+    color: #fff;
+    -webkit-box-shadow: inset 0 -2px 10px 1px #822525;
+    box-shadow: inset 0 -2px 10px 1px #822525;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 95px auto 0
+}
+
+.title_box {
+    font-family: Dinhtran;
+    padding: 0 100px;
+}
+
+.rankings .title_box {
+    margin-top: -50px
+}
+
+.nav-tabs>li:nth-child(1) {
+    margin-right: 10px
+}
+
+.rankings .nav-tabs>li>a:hover {
+    opacity: 0.9
+}
+
+.rankings .nav-tabs>li>a {
+    min-width: auto;
+    background: url(../img/images/bg_bxh4.png) no-repeat;
+    width: 187px;
+    height: 56px;
+    text-align: center;
+    padding-top: 9px;
+    background-size: 100%
+}
+
+.rankings .nav-tabs>li.active>a, .rankings .nav-tabs>li.active>a:focus, .rankings .nav-tabs>li.active>a:hover {
+    background: url("../img/images/bg_bxh4.png") no-repeat
+}
+
+.info a:focus {
+    outline: none
+}
+
+.search::-moz-placeholder {
+    color: #fff;
+    font-size: 15px
+}
+
+.search:-ms-input-placeholder {
+    color: #fff;
+    font-size: 15px
+}
+
+.search input:-moz-placeholder {
+    color: #fff;
+    font-size: 15px
+}
+
+.search::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 15px
+}
+
+.start_exam_click:focus, .start_exam_click:hover {
+    color: #fff;
+    background: #e02f2f;
+    text-decoration: none
+}
+
+.search_input {
+    color: #fff
+}
+
+.rankings .table_responsive .table>thead:first-child>tr:first-child>th {
+    text-transform: uppercase
+}
+
+.excellent {
+    margin-top: 3px
+}
+
+.prize .info, .title_txt {
+    margin-top: 30px;
+}
+
+.prize_left, .prize_right {
+    padding: 15px 20px 40px;
+    max-width: 503px
+}
+
+.logo img {
+    max-width: 100px
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../../fonts/utmbebas/UTM%20Bebas%20.html);
+    font-style: normal;
+    font-weight: 400
+}
+
+.content-head .ch-title {
+    color: #1a98c4;
+    font-family: Bebas;
+    font-size: 30px
+}
+
+.content-head:after {
+    content: '';
+    clear: both;
+    display: block
+}
+
+.icon_count_time {
+    background: url(../img/images/icon_count_time.png) left top no-repeat;
+    padding: 23px 30px 2px 60px;
+    float: right;
+    font-size: 16px;
+    color: #0ca0d1;
+    margin-top: 18px
+}
+
+.content-head .ch-time {
+    background: url(../img/images/icon_count_time.png) left top no-repeat;
+    padding: 23px 30px 2px 60px;
+    float: right;
+    font-size: 16px;
+    color: #0ca0d1;
+    height: inherit;
+    line-height: inherit;
+    margin-top: 15px
+}
+
+body {
+    background: url(../img/images/bg_page.jpg) center top no-repeat;
+    background-size: 100%
+}
+
+#content .content-wr {
+    background: url("../img/images/bg_right.png") right top repeat-y, url("../img/images/bg_top.png") left top repeat-x, url("../img/images/bg_top.png") left bottom repeat-x, url("../img/images/bg_right.png") left top repeat-y
+}
+
+.txt_subject {
+    font-size: 14px !important;
+    font-family: "UTM Avo", arial, sans-serif;
+    color: #000;
+    text-transform: inherit;
+    line-height: 2
+}
+
+.content-head {
+    min-height: auto;
+    padding-bottom: 5px
+}
+
+@media (min-width:768px) {
+    .hocmai_modal .modal-dialog {
+        width: 1020px;
+        margin: 0 auto
+    }
+}
+
+@media (max-width:1024px) {
+    #content {
+        margin-top: 60px
+    }
+    .subject-nav {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center
+    }
+    .subject-nav li {
+        float: none;
+        display: inline-block
+    }
+    .cl-1 {
+        width: inherit
+    }
+}
+
+.logo_pen_cup {
+    padding: 10px 0 10px
+}
+
+.logo_pen_cup img {
+    max-height: 100px
+}
+
+header .pull-right {
+    padding-top: 35px !important
+}
+
+.start_exam_click {
+    margin: 25px auto 0
+}
+
+.start_exam_click:hover {
+    background: #e83030
+}
+
+.start_exam img {
+    padding: 90px 0 30px
+}
+
+.prize {
+    margin-top: -50px;
+    background: none
+}
+
+.prize .container {
+    background: url(../img/images/prize.png) center top no-repeat;
+    background-size: 100%
+}
+
+.rankings {
+    margin-top: -60px
+}
+
+.start_exam {
+    background-size: 100% !important;
+    background: url(../img/images/bg_exam.png) center 0 no-repeat !important;
+    padding-bottom: 370px
+}
+
+.prize .container {
+    padding-bottom: 77px
+}
+
+.title_box {
+    margin-top: 70px
+}
+
+.comments_ {
+    max-width: 1035px
+}
+
+@media (min-width:1200px) {
+    .prize .container {
+        width: 1130px
+    }
+    .rankings .container, .comment_facebook .container {
+        width: 1147px;
+        margin: 0 auto
+    }
+}
+
+@media (max-width:1199px) {
+    .box_prize>div {
+        width: 100%
+    }
+    .prize .container {
+        padding-left: 12px;
+        padding-right: 12px;
+        background: none;
+        padding-bottom: 0
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .title_box {
+        margin-top: 0
+    }
+}
+
+@media (max-width:991px) {
+    .bg_bxh {
+        margin-top: -59px
+    }
+    .prize .container .box_prize>div {
+        margin-bottom: 0
+    }
+    .nav-tabs>li:nth-child(1) {
+        margin-right: 0
+    }
+    .title_box {
+        font-size: 75px
+    }
+    .start_exam {
+        padding-bottom: 200px
+    }
+}
+
+@media (max-width:767px) {
+    .logo img {
+        margin: 0 auto
+    }
+    header .pull-right {
+        display: block !important;
+        float: none !important;
+        text-align: center;
+        padding-top: 15px !important
+    }
+    .subject-nav {
+        left: inherit;
+        -webkit-transform: inherit;
+        transform: inherit;
+        width: 100%;
+        text-align: center;
+        position: static
+    }
+    .content-head .ch-time, .content-head .ch-title {
+        float: none;
+        display: inline-block
+    }
+    .content-head {
+        text-align: center
+    }
+    .btn-download {
+        display: block;
+        min-width: 150px
+    }
+    .cl-1 {
+        width: 100%;
+        text-align: center
+    }
+    .start_exam {
+        padding-bottom: 70px
+    }
+    .title_box {
+        font-size: 40px;
+        color: #d90b0b;
+        font-weight: 400;
+        display: inline-block;
+        background: url(../img/images/icon_star0.png) left center no-repeat, url(../img/images/icon_star0.png) right center no-repeat;
+        padding: 0 30px;
+        background-size: 10%
+    }
+    .prize .container .title_box0:after {
+        height: 0
+    }
+    .prize {
+        margin-top: 0   
+    }
+    .prize .container .title_box0 {}
+
+    .cta {
+        font-size: 14px;
+        padding: 0 25px
+    }
+    .arrow {
+        width: 10px;
+        height: 12px;
+        background-size: 10px 12px;
+        top: 6px
+    }
+    .arrow.arrow-right {
+        background-size: 10px 12px;
+        right: 3px
+    }
+}
+@media (max-width:479px) {}

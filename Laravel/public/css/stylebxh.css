@@ -1,0 +1,28 @@
+
+.kithi{
+	font-size: 15px;
+	font-weight: bold;
+	width: 120px;
+	height: 38px;
+	color: black;
+    padding: 2px 40px 2px 10px;
+    border: 1px solid #3eb2dc;
+    border-radius: 5px;
+    box-shadow: inherit
+}
+.loaibang{
+	font-size: 15px;
+	font-weight: bold;
+	width: 150px;
+	height: 38px;
+	color: black;
+    padding: 2px 40px 2px 10px;
+    border: 1px solid #3eb2dc;
+    border-radius: 5px;
+    box-shadow: inherit
+}
+.table>thead>tr>th{
+	text-align: center;
+    color: #337ab7;
+    font-size: 15px;	
+}

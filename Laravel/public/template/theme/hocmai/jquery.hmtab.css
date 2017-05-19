@@ -1,0 +1,189 @@
+body {
+	font-family: Arial;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+    color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Tabs */
+ul.tabs {
+    _width: 9999px; /* Fix tab cuoi bi mat tren IE 6 */
+	margin:0;
+	padding:0;
+	display: table;
+	height: 26px;
+	padding-top: 3px;
+}
+ul.tabs li {
+	font-family: Arial;
+	font-size: 12px;
+	margin:0 1px;
+	padding:0;
+	float:left;
+	color: #5396cd;
+	cursor: pointer;
+	font-weight: bold;
+    list-style: none;
+    
+}
+ul.tabs li a {
+	font-family: Arial;
+	font-size: 11px;
+    color: #5396cd;
+}
+ul.tabs li a span{
+	display: block;
+	margin:0;
+	padding: 4px 0 4px 10px;
+}
+
+/* Teacher Tabs */
+#teacherlist ul.tabs {
+    background: url(course/carousel_bg.jpg) repeat-x;
+    width: 541px;
+    float: left;
+}
+#teacherlist ul.tabs li {
+    width:178px;
+    _width:auto;
+    _display:block;
+    text-align: center;
+    margin-top:3px;
+    text-transform: uppercase;
+}
+#teacherlist ul.tabs li a, #teacherlist ul.tabs li a span {
+	display: block;
+	background: url(course/tab2.png) no-repeat;
+}
+#teacherlist ul.tabs li.sel a span, #teacherlist ul.tabs li a span{
+	padding-left: 10px;
+	margin-right: 10px;
+}
+#teacherlist ul.tabs li.sel a, #teacherlist ul.tabs li a:hover{
+	color: #fff;
+    background-position: 100% -150px;
+}
+#teacherlist ul.tabs li.sel  a span, #teacherlist ul.tabs li  a:hover span{
+    background-position: 0 -50px;
+}
+#teacherDetail {
+    height: 420px;
+	clear:both;
+	border: 1px solid #288ee2;
+	border-width: 0 1px 1px;
+}
+
+/* Scorm Tabs */
+#scormlist ul.tabs li {
+    width:178px;
+    text-align:center;
+    _width:auto;
+    _display:block;
+}
+#scormlist ul.tabs li a, #scormlist ul.tabs li a span {
+	display: block;
+	background: url(course/tab3.png) no-repeat;
+}
+#scormlist ul.tabs li.sel a span, #scormlist ul.tabs li a span{
+	padding-left: 10px;
+	margin-right: 10px;
+}
+#scormlist ul.tabs li.sel a, #scormlist ul.tabs li a:hover{
+	color: #fff;
+    background-position: 100% -150px;
+}
+#scormlist ul.tabs li.sel  a span, #scormlist ul.tabs li  a:hover span{
+    background-position: 0 -50px;
+}
+#scormlist ul.tabs li a{
+    background-position: 100% -100px;
+}
+#scormlist ul.tabs li a span{
+    background-position: 0 0;
+}
+#scormDetail {
+    height: 240px;
+	clear:both;
+}
+
+/* Forum Tabs */
+#forumlist ul.tabs {
+    _width: 400px;
+	padding-top: 0px;
+    float:left;
+    text-transform: uppercase;
+}
+#forumlist ul.tabs li a, #forumlist ul.tabs li a span {
+    margin-top: 4px;
+	display: block;
+	background: url(course/tab4.png) no-repeat;
+}
+#forumlist ul.tabs li.sel a span, #forumlist ul.tabs li a span{
+	padding-left: 30px;
+	margin-right: 30px;
+}
+#forumlist ul.tabs li.sel a, #forumlist ul.tabs li a:hover{
+	color: #000;
+    background-position: 100% -150px;
+}
+#forumlist ul.tabs li.sel  a span, #forumlist ul.tabs li  a:hover span{
+    background-position: 0 -50px;
+}
+#forumlist ul.tabs li a{
+    background-position: 100% -100px;
+}
+#forumlist ul.tabs li a span{
+    background-position: 0 0;
+}
+
+ul.chaptertitle {
+	background: url(course/chapter_title_bg.jpg) repeat-x;
+	text-transform: uppercase;
+	font-weight: bold;
+    margin:0;
+    padding:0;
+    height: 26px;
+}
+
+ul.chaptertitle li {
+    padding:0;
+    margin:0;
+    list-style: none;
+    padding-top:4px;
+    float:left;
+}
+
+ul.chaptertitle li.head {
+	padding:0;
+}
+
+ul.chaptertitle li.tail{
+    float:right;
+    padding:0;
+}
+.scormintro {
+    font-size: 11px;
+}
+
+.scormintro .title {
+    color: #268fe2;
+    padding: 10px 0 5px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.scormintro .footer {
+    font-size: 11px;
+    text-align: left;
+}
+.namdq{
+background:url(course/dot.gif) repeat-x  transparent scroll center center;
+clear:both;
+display:block;
+height:10px;
+}

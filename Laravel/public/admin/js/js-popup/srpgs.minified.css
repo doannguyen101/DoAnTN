@@ -1,0 +1,327 @@
+/*
+* Project	:	Single Responsive Photo Gallery plus Slideshow
+* Author	:	Phong Thai (http://www.javascriptbank.com/)
+* Support	:	http://www.javascriptbank.com/single-responsive-photo-gallery-plus-slideshow.html
+* Version	:	1.0.1
+*/
+
+/*
+	You are free to use this plugin in any personal, commercial project without my permission.
+	But please help me by leaving the Copyright sign, it just occupies about 10 pixels, 
+	otherwise please help me with a milk coffee (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2MEPB69L9E5VQ) to remove this sign.
+*/
+#srpgs-thumbs-gallery img {
+            max-width: 65px;
+            max-height: 65px;
+        }
+
+        .ul_hover_pro li {
+            padding-left: 20px !important;
+        }
+
+        #srpgs-slideshow {
+            overflow: hidden;
+        }
+
+        #id1233474747456 {
+            background: none repeat scroll 0 0 #f5f5f5;
+            border: 1px solid #eee;
+            color: #4a90e2;
+            cursor: pointer;
+            font-size: 15px;
+            margin-top: 10px;
+            padding: 8px 0;
+            text-align: center;
+            width: 100%;
+            clear: both;
+        }
+
+        #srpgs-control a.up,
+        #srpgs-control a.down {
+            float: none;
+            position: absolute;
+            background: rgba(204, 204, 204, 0.7);
+            z-index: 12;
+            text-align: center;
+        }
+
+        #srpgs-control a.down {
+            left: 0;
+            bottom: 0;
+        }
+
+        #srpgs-control a i {
+            position: static !important;
+            margin-top: 10px;
+        }
+
+        #srpgs-control a.up:hover, #srpgs-control a.down:hover {
+            background-color: rgba(255, 102, 0, 0.7);
+        }
+
+        .srpgs-control-btns {
+            display: block;
+            position: absolute;
+            width: 20%;
+            top: 0;
+            height: 100%;
+            line-height: 100%;
+        }
+
+            .srpgs-control-btns i {
+                font-size: 50px;
+                top: 50%;
+                margin-top: -15px;
+                position: absolute;
+            }
+
+            .srpgs-control-btns:hover {
+                background: rgba(250, 250, 250, 0.2);
+                transition: background 0.3s;
+            }
+
+        #srpgs-control-back i {
+            margin-left: 30px;
+            opacity: 0.2;
+        }
+        #srpgs-control-back i:hover {
+            margin-left: 30px;
+            opacity: 0.5;
+        }
+        #srpgs-control-next {
+            right: 0;
+        }
+
+            #srpgs-control-next i {
+                right: 30px;
+                opacity: 0.2;
+            }
+            #srpgs-control-next i:hover {
+                right: 30px;
+                opacity: 0.5;
+            }
+
+        .fa-angle-left:before {
+            content: "\f104";
+        }
+
+        .fa-angle-right:before {
+            content: "\f105";
+        }
+.srpgs-container {
+    position: relative;
+}
+
+#srpgs-slideshow {
+    height: 410px;
+    /*border: 1px solid #ddd;*/
+    position: relative;
+}
+
+.srpgs-holder {
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 400px !important;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 400px;
+}
+
+    .srpgs-holder img {
+        height: 400px !important;
+        width: 400px !important;
+    }
+
+#srpgs-control {
+    /*height: 110px;
+    position: relative;*/
+}
+
+#srpgs-picture {
+    width: 90%;
+    float: left;
+    clear: both;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#srpgs-picture-title {
+    background-image: url("../images/textbg.png");
+    color: #333;
+    font-size: 20px;
+    padding: 4px 13px 7px;
+    float: left;
+    display: block;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+}
+
+    #srpgs-picture-title:hover {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+    }
+
+.srpgs-picture-link {
+    background-color: orange;
+    color: #FFF;
+    font-size: 12px;
+    padding: 9px 16px;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    clear: both;
+    margin-top: 10px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+}
+
+    .srpgs-picture-link:hover {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+    }
+
+    .srpgs-picture-link a {
+        font-size: 13px;
+        font-style: italic;
+        letter-spacing: 0;
+        text-transform: none;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+        .srpgs-picture-link a:hover {
+            text-decoration: underline;
+        }
+
+#srpgs-control-btns div {
+    height: 32px;
+    width: 32px;
+    float: left;
+    cursor: pointer;
+}
+
+#srpgs-control-back {
+    z-index: 101;
+}
+
+#srpgs-control-next {
+    z-index: 101;
+}
+
+#srpgs-control {
+    /*float: left;
+    position: relative;*/
+}
+
+    #srpgs-control a {
+        position: relative;
+    }
+
+    #srpgs-control .srpgs-thumbs-nav {
+        background: none no-repeat scroll center top rgba(0, 0, 0, 0);
+        color: #fff;
+        cursor: pointer;
+        font-size: 30px;
+        height: 25px;
+        line-height: 20px;
+        margin: 0;
+        text-align: center;
+        width: 90px;
+    }
+
+        #srpgs-control .srpgs-thumbs-nav .fa {
+            line-height: 0;
+        }
+
+    #srpgs-control a.up {
+        float: left;
+        background: #ccc;
+    }
+
+    #srpgs-control a.down {
+        float: left;
+        background: #ccc;
+    }
+
+        #srpgs-control a.up:hover, #srpgs-control a.down:hover {
+            background: #ff6600;
+        }
+
+    #srpgs-control div.copyright {
+        top: 0;
+        margin: 0;
+        padding: 0;
+        height: 5px;
+        line-height: 5px;
+        font-size: 10px;
+        text-align: right;
+    }
+
+        #srpgs-control div.copyright a {
+            text-decoration: none;
+            color: white;
+            background-color: orange;
+            padding: 1px;
+        }
+
+            #srpgs-control div.copyright a:hover {
+                background-color: silver;
+            }
+
+
+    #srpgs-thumbs-gallery .border-thumbs-gallery {
+        border: 1px solid rgba(202,202,202,.8); /* stroke */
+        background-color: #fff; /* layer fill content */
+        width: 90px;
+        height: 70px;
+        margin: 10px;
+        clear: right;
+        float: left;
+    }
+
+        #srpgs-thumbs-gallery .border-thumbs-gallery.active {
+            -moz-box-shadow: 0 0 8px rgba(0,0,0,.1); /* outer glow */
+            -webkit-box-shadow: 0 0 8px rgba(0,0,0,.1); /* outer glow */
+            box-shadow: 0 0 8px rgba(0,0,0,.1); /* outer glow */
+        }
+
+            #srpgs-thumbs-gallery .border-thumbs-gallery.active img {
+                opacity: 1;
+            }
+
+    #srpgs-thumbs-gallery img {
+        cursor: pointer;
+        display: block;
+        height: 65;
+        margin: 0 auto;
+        opacity: 0.5;
+        width: 65;
+    }
+
+        #srpgs-thumbs-gallery img:hover,
+        #srpgs-thumbs-gallery img.active {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+            filter: alpha(opacity=100);
+            -moz-opacity: 1;
+            -khtml-opacity: 1;
+            opacity: 1;
+        }
+
+#srpgs-control-btns {
+    padding-left: 0;
+}
+

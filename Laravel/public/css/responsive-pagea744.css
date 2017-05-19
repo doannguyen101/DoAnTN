@@ -1,0 +1,163 @@
+@media only screen and (max-width:768px) {
+    .cl-1 {
+        width: 100%
+    }
+    .header-right.account {
+        padding-top: 20px
+    }
+    #scheduleModal .modal-dialog {
+        width: 100% !important
+    }
+    #scheduleModal .modal-dialog table tr:first-child th:first-child {
+        width: 40px !important
+    }
+    #rulesModal .modal-dialog {
+        width: 100% !important
+    }
+    #userInfoConfirmModal .modal-dialog {
+        width: 100%;
+        max-width: 100%
+    }
+    #userInfoConfirmModal .control-mwr {
+        width: 100%
+    }
+    .score-group .sg-elements {
+        width: 100%;
+        margin: 0
+    }
+    .score-group {
+        width: 100%
+    }
+    .notice {
+        width: 100%;
+        padding-left: 20px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    #logo {
+        background-size: 40px;
+        height: 40px;
+        margin-right: 5px;
+        width: 40px;
+        margin-left: 20px;
+        margin-top: 3px
+    }
+    .header-left-menu>li {
+        padding-right: 6px;
+        margin-right: 6px
+    }
+    .content-head {
+        font-size: 14px;
+        min-height: 70px;
+        text-align: center
+    }
+    .content-head .ch-title {
+        float: none;
+        line-height: 30px
+    }
+    .content-head .ch-time {
+        float: none;
+        background: none;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 0
+    }
+    .header-left-menu {
+        padding-top: 10px;
+        width: 230px;
+        font-size: 12px
+    }
+    .right-h {
+        float: none;
+        width: 100%
+    }
+    .take-exam {
+        padding-top: 10px;
+        display: none
+    }
+    .right-h .social-link {
+        padding-top: 10px;
+        margin-left: 20px
+    }
+    .header-right.account {
+        padding-top: 15px;
+        float: none;
+        display: block;
+        margin-left: 20px
+    }
+    .header-right.account li {
+        margin-left: 0
+    }
+    .tl-list {
+        padding: 0
+    }
+    .cl-1 {
+        width: 100%
+    }
+    #scheduleModal .modal-dialog {
+        width: 100% !important
+    }
+    #scheduleModal .modal-dialog table tr:first-child th:first-child {
+        width: 40px !important
+    }
+    #rulesModal .modal-dialog {
+        width: 100% !important
+    }
+    #userInfoConfirmModal .modal-dialog {
+        width: 100%;
+        max-width: 100%
+    }
+    #userInfoConfirmModal .control-mwr {
+        width: 100%
+    }
+    .score-group .sg-elements {
+        width: 100%;
+        margin: 0
+    }
+    .score-group {
+        width: 100%
+    }
+    .notice {
+        width: 100%;
+        padding-left: 20px
+    }
+    .test-page::before {
+        display: none
+    }
+    .test-page-content {
+        padding: 0
+    }
+    .test-bt {
+        margin-top: 20px
+    }
+    #countdown-container.clock-sticky {
+        top: 5px;
+        font-size: 12px
+    }
+    .ch-time-cup {
+        display: none
+    }
+    .test-result {
+        margin-top: 100px
+    }
+    .content-footer {
+        text-align: center
+    }
+    .content-footer .share-btn {
+        float: none;
+        margin-top: 20px
+    }
+    #messageModal .modal-dialog {
+        width: 100%!important
+    }
+    .time-popup {
+        width: 300px;
+        height: 170px
+    }
+    .content-popup {
+        width: 300px;
+        height: 170px;
+        background-size: 300px 170px
+    }
+}

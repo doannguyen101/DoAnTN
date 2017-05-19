@@ -1,0 +1,281 @@
+.center{
+	clear:both;
+}
+
+.nav-dienthoai{
+	float:left;
+	width:180px;
+}
+
+.nav-dienthoai> .head-dienthoai{
+    padding: 0;
+    margin: 0;
+    height: 33px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 6px;
+    font-size: 18px;
+}
+.row-dienthoai > .nav-dienthoai{
+	float:left;
+}
+.row-dienthoai > .nav-dienthoai > .head-dienthoai {
+    background-color: green;
+	
+}
+.row-dienthoai > .nav-dienthoai> .head-dienthoai a {
+    color: white;
+	text-decoration: none;
+}	
+
+.item-danhsachloai{
+	margin-top:10px;
+	
+}
+
+.item-danhsachloai div,
+.item-danhsachloai h4 {
+    float: left;
+    clear: right;
+    padding: 4px 15px;
+    border: #d1d1d1 solid 1px;
+    margin: 1px 3px 4px 2px;
+    border-radius: 3px;
+    font-size: 12px
+}
+.item-danhsachloai div:hover,
+.item-danhsachloai h4:hover {
+    text-decoration: none;
+    background-color: #ebebeb;
+    cursor: pointer;
+    color: #646464
+}
+
+
+.row-dienthoai {
+	margin-top:10px;
+	text-align:center;
+    border-top-color: green;
+    border-top-style: solid;
+    border-top-width: 3px;
+	
+
+}
+.dienthoai >.nav-dienthoai{
+    border-left-width: 1px;
+    border-left-color: white;
+    border-left-style: solid;
+    position: absolute;
+}
+
+.item-danhsach-dienthoai{
+	margin-left:30px;
+	float:left;
+	
+}
+
+
+
+
+.ohienthidienthoai{
+	width:200px;
+	margin-top:10px;
+	padding:5px;
+}
+
+.sell{
+	margin:5px;
+	font-size: 12px;
+    color: #6a6a6a;
+    height: 12px;
+    text-decoration: line-through
+}
+.price {
+	margin:5px;
+    color: #f83015;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    padding-left: 10px
+}
+
+.name {
+    color: #1f1f1d;
+    font-size: 14px;
+    line-height: 26px;
+    padding-left: 10px
+}
+.dienthoai-hienthithem{
+	clear:both;
+	float:left;
+	margin-top:60px;
+	
+}
+
+
+
+}
+.h-item > .content > .h-detail {
+    margin-right: -10px;
+    background-color: #585858;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top: 195px;
+    left: 0;
+    padding: 15px
+}
+.hHover > .h-detail {
+    position: absolute;
+    top: 0!important;
+    left: 0;
+    z-index: 999;
+    cursor: pointer
+}
+.h-detail > h5,
+.h-detail > h3 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    height: 44px;
+    overflow: hidden
+}
+.h-detail > h4 {
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 14px;
+    font-weight: 600;
+    padding-top: 11px
+}
+.h-detail > .order {
+    padding-top: 5px;
+    text-transform: uppercase;
+    background-color: #f83015;
+    color: #fff;
+    width: 81px;
+    height: 26px;
+    font-size: 12px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px
+}
+.h-detail > .line-top {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: #8a8a8a solid 1px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    height: 160px
+}
+--------------------dinh danh menu----------------
+
+
+
+
+
+body{
+ font-family:sans-serif;
+ font-size:15px;
+}
+#menu ul {
+   background:green;
+   width:250px;
+   padding:0;
+   list-style-type:none;
+}
+#menu ul li{
+   width: auto;
+   height:40px;
+   line-height: 40px;
+   border-bottom: 1px solid white;
+   padding: 0 1em;
+   position:relative;
+}
+#menu ul li a{
+   text-decoration:none;
+   color: white;
+   font-weight: bold;
+   display:block;
+
+}
+#menu ul li:hover{
+    background:lightblue;
+   
+}
+#menu .sub-menu{
+   position:absolute;
+   left:250px;
+   top:0;
+   display:none;
+}
+#menu ul li:hover .sub-menu{
+   display:block;
+}
+
+
+
+
+    .wapper-menu {
+        display: none;
+    }
+
+    #filter_lst .title .r {
+        cursor: pointer;
+    }
+
+    #filter_lst .content {
+        max-height: 157px;
+        overflow-y: auto;
+    }
+
+        #filter_lst .content img {
+            height: 16px;
+            width: 24px;
+        }
+
+    #div_Danh_Sach_San_Pham_loadMore {
+        display: none;
+    }
+
+    #div_Danh_Sach_San_Pham_loadMore_btn {
+        text-align: center;
+        margin-top: 25px;
+        float: left;
+        width: 100%;
+        display: none;
+    }
+
+        #div_Danh_Sach_San_Pham_loadMore_btn a {
+            display: inline-block;
+            border: solid 1px #F83015;
+            -ms-border-radius: 5px;
+            border-radius: 5px;
+            padding: 7px 25px;
+            color: #F83015;
+        }
+
+    .slimScrollDiv {
+        height: auto !important;
+    }
+
+        .slimScrollDiv .content {
+            height: auto !important;
+        }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        margin-right: 10px;
+    }
+
+
+    .h-item-2 {
+        position: relative;
+        float: left;
+    }

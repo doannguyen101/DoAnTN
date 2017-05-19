@@ -1,0 +1,214 @@
+#loginModal .modal-dialog {
+    width: 328px;
+    height: 341px;
+}
+
+#loginModal .modal-title:before {
+    content: '';
+    background: url("../images/login-logo.png") no-repeat;
+    width: 37px;
+    height: 36px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+
+#loginModal .modal-header {
+    height: 49px;
+}
+
+#loginModal .modal-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+#loginModal .modal-body {
+    background: #f5f6f7;
+    padding: 25px 18px 0 18px;
+}
+
+#loginModal ::-webkit-input-placeholder {
+    color: #000000;
+}
+
+#loginModal :-moz-placeholder {
+    color: #000000;
+}
+
+#loginModal ::-moz-placeholder {
+    color: #000000;
+}
+
+#loginModal :-ms-input-placeholder {
+    color: #000000;
+}
+
+#loginModal .modal-footer {
+    border-top: 1px solid #9fc8e2;
+    padding-top: 12px;
+}
+
+#loginModal label.error {
+    font-size: 12px;
+}
+
+#loginModal .checkbox label {
+    padding-left: 8px;
+    color: #000;
+}
+
+#loginModal .checkbox label span {
+    padding-top: 3px;
+    display: inline-block;
+}
+
+#loginSocialModal .modal-content {
+    background: #ffffff;
+}
+
+#loginSocialModal .loaderv2 img {
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+#loginSocialModal .loaderv2-text {
+    color: #505050;
+    text-align: center;
+}
+
+.input-username:before, .input-password:before {
+    content: "";
+}
+
+.login-element-wr {
+    margin-bottom: 16px;
+}
+
+.login-element-wr input {
+    padding: 10px 12px;
+    width: 100%;
+    height: 33px;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #a6a6a7;
+}
+
+.btn-login {
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 4px;
+    line-height: 30px;
+    background: #ff8a00;
+    box-shadow: 1px 2px 2px #c4c5c6;
+    display: inline-block;
+}
+
+.login-actions-left {
+    float: left;
+}
+
+.login-actions-right {
+    text-align: center;
+}
+
+.login-social {
+    width: 163px;
+    margin: 0 auto;
+}
+
+.login-social .tooltip.top .tooltip-inner {
+    background-color: #0072bc;
+}
+.login-social .tooltip.top .tooltip-arrow {
+    border-top-color: #0072bc;
+}
+
+.login-social .tooltip-inner {
+    width: 163px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.login-social ul {
+    list-style: none;
+    margin: 10px auto 0 auto;
+    padding: 0;
+    width: 163px;
+}
+
+.login-social li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.login-social li:last-child {
+    margin-right: 0;
+}
+
+.login-social li a {
+    width: 39px;
+    height: 39px;
+    line-height: 39px;
+    display: inline-block;
+}
+
+.fb-social {
+    background: url("../images/fb-39.png") no-repeat;
+}
+
+.google-social {
+    background: url("../images/google-39.png") no-repeat;
+}
+
+.yahoo-social {
+    background: url("../images/yahoo-39.png") no-repeat;
+}
+
+.login-action-sub {
+    margin: 15px 0 8px 0;
+}
+
+.login-action-sub ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.login-action-sub li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.login-action-sub li:first-child:after {
+    content: '|';
+    color: #0086D0;
+    float: right;
+}
+
+.login-action-sub li:last-child {
+    margin-right: 0;
+}
+
+.login-action-sub a {
+    font-size: 12px;
+    color: #0072bc !important;
+}
+
+label.error {
+    color: #a94442;
+    margin-top: 3px;
+    width: 100%;
+    text-align: left;
+}
+
+input.error {
+    border: 1px solid #a94442;
+}
+
+.loginv2-loader {
+    display: none;
+}

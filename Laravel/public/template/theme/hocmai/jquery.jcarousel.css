@@ -1,0 +1,131 @@
+/**
+ * This <div> element is wrapped by jCarousel around the list
+ * and has the classname "jcarousel-container".
+ */
+.jcarousel-container {
+	display: block;
+	position: relative;
+	float:left;
+	margin:0;
+	width: 541px;
+}
+
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: auto;
+}
+
+/**
+ * The buttons are added dynamically by jCarousel before
+ * the <ul> list (inside the <div> described above) and
+ * have the classnames "jcarousel-next" and "jcarousel-prev".
+ */
+
+#teacher-next, #teacher-prev {
+	display: block;
+	cursor: pointer;
+	float: right;
+	background: url(course/carousel_but_r.jpg) no-repeat;
+	height: 26px;
+	width: 27px;
+	margin:0;
+}
+
+#teacher-prev {
+	float: left;
+	background: url(course/carousel_but_l.jpg) no-repeat;
+}
+
+#teacherlist .jcarousel-container {
+	background: url(course/carousel_bg.jpg) repeat-x;
+}
+
+#teacherlist .jcarousel-container-horizontal {
+    padding:0;
+}
+
+#teacherlist .jcarousel-clip-horizontal {
+    width:  541px;
+    height: 26px;
+}
+
+#teacherlist .jcarousel-item {
+    
+}
+
+#teacherlist .jcarousel-item-horizontal {
+	padding: 0;
+    margin: 0 1px;
+}
+
+#teacherlist .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+#scorm-next, #scorm-prev {
+	display: block;
+	cursor: pointer;
+	float: right;
+	background: url(course/carousel2_but_r.jpg) no-repeat;
+	height: 26px;
+	width: 27px;
+	margin:0;
+}
+
+#scorm-prev {
+	float: left;
+	background: url(course/carousel2_but_l.jpg) no-repeat;
+}
+
+#scormlist .jcarousel-container {
+	position: absolute;
+}
+
+#scormlist .jcarousel-container-horizontal {
+    padding:0;
+}
+
+#scormlist .jcarousel-clip-horizontal {
+    width:  539px;
+	float: left;
+    height: 25px;
+	border-bottom: 1px solid #3394e3;
+}
+#scormlist .jcarousel-item {
+    
+}
+#scormlist .jcarousel-item-horizontal {
+	padding: 0;
+    margin: 0 1px;
+}
+
+#scormlist .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}

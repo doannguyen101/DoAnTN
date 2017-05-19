@@ -1,0 +1,24 @@
+
+
+                                                                               
+  [Illuminate\Database\QueryException]                                         
+  SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'nguoidungs'  
+   already exists (SQL: create table `nguoidungs` (`tendangnhap` varchar(255)  
+   not null, `matkhau` varchar(20) not null, `hoten` varchar(255) not null, `  
+  gioitinh` varchar(255) not null, `ngaysinh` date not null, `sodienthoai` va  
+  rchar(255) not null, `email` varchar(255) not null, `hinhdaidien` varchar(2  
+  55) not null, `quyen` int unsigned not null, `trangthai` tinyint(1) not nul  
+  l, `created_at` timestamp default 0 not null, `updated_at` timestamp defaul  
+  t 0 not null) default character set utf8 collate utf8_unicode_ci)            
+                                                                               
+
+
+
+
+                                                                               
+  [PDOException]                                                               
+  SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'nguoidungs'  
+   already exists                                                              
+                                                                               
+
+

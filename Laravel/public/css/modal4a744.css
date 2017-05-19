@@ -1,0 +1,834 @@
+.hocmai-modal {
+    font-size: 13px
+}
+
+.hocmai-modal .modal-header {
+    background: #2a70b8 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 15px
+}
+
+.hocmai-modal .modal-title {
+    font-size: 16px;
+    font-weight: normal;
+    padding-right: 15px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.hocmai-modal .modal-content {
+    border-radius: 0
+}
+
+.hocmai-modal .modal-footer {
+    padding: 10px 15px
+}
+
+.modal-md {
+    max-width: 450px
+}
+
+.login-box-left {
+    float: left;
+    padding-right: 5%;
+    width: 50%
+}
+
+.login-box-right {
+    float: right;
+    padding-left: 5%;
+    width: 50%
+}
+
+.lbt {
+    font-size: 13px;
+    margin: 0 0 15px
+}
+
+.login-element-wr {
+    margin: 0 0 15px
+}
+
+.edit-login {
+    height: 30px;
+    padding: 3px 6px;
+    width: 100%
+}
+
+.social-login {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0
+}
+
+.login-register {
+    font-size: 14px
+}
+
+.social-login>li {
+    margin: 0 0 5px
+}
+
+.login-actions {
+    float: left;
+    margin-right: 15px
+}
+
+.login-forgot-pass {
+    float: right;
+    text-align: right
+}
+
+.login-forgot {
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 0 0
+}
+
+.warning-ans-wr {
+    float: left;
+    max-width: 60%;
+    padding: 8px 0;
+    text-align: left
+}
+
+label {
+    font-weight: normal
+}
+
+.warning-ans-wr>input {
+    float: left;
+    margin: 2px 5px 2px 0
+}
+
+.warning-ans-wr label {
+    font-size: 13px;
+    margin: 0
+}
+
+.btn {
+    font-size: 13px
+}
+
+.btn-primary {
+    background-color: #2a70b8;
+    border-color: #337ab7
+}
+
+.btn-cancel {
+    background-color: #e0e0e0;
+    border-color: #ccc
+}
+
+.control-group {
+    margin-bottom: 10px
+}
+
+.modal-body .control-group:last-child {
+    margin-bottom: 0
+}
+
+.control-group label {
+    float: left;
+    font-weight: normal;
+    line-height: 30px;
+    min-width: 135px;
+    margin: 0
+}
+
+.control-group textarea, .control-group input[type="text"], .control-group input[type="email"], .control-group input[type="password"], .control-group select {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 2px 8px;
+    width: 283px
+}
+
+.control-group textarea.error, .control-group input[type="text"].error, .control-group input[type="email"].error, .control-group input[type="password"], .control-group select.error {
+    background: #ffe9e9 none repeat scroll 0 0;
+    border-color: #cc3333
+}
+
+.control-group textarea {
+    height: 108px
+}
+
+.control-group input[type="text"], .control-group input[type="email"], .control-group input[type="password"], .control-group select {
+    height: 28px;
+    width: 100%
+}
+
+.control-group input[type="checkbox"], .control-group input[type="radio"] {
+    float: left;
+    margin: 14px 0
+}
+
+.control-mwr {
+    float: right;
+    width: 280px
+}
+
+.reg-submit {
+    background: #31a9a3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    width: 125px
+}
+
+#listFreeCourse .modal-body {
+    padding: 20px;
+    background: #2a70b8 none repeat scroll 0 0;
+    border-radius: 5px
+}
+
+#listFreeCourse .modal-body .list-container {
+    background: white none repeat scroll 0 0;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative
+}
+
+#listFreeCourse.hocmai-modal .modal-content {
+    border-radius: 6px
+}
+
+#listFreeCourse .modal-body .close {
+    margin-top: -20px;
+    margin-right: -15px
+}
+
+#listFreeCourse .modal-header {
+    padding: 0;
+    height: 0;
+    margin: 0;
+    min-height: 0;
+    border: none
+}
+
+#listFreeCourse .modal-body-title {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    color: #2a70b8
+}
+
+.list-container .ribbon {
+    background: rgba(0, 0, 0, 0) url("../img/images/modal/ribbon.png") no-repeat scroll 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 240px;
+    text-align: center;
+    display: block
+}
+
+.list-container .ribbon .logo {
+    display: inline-block;
+    margin-top: 67px;
+    margin-right: 11px
+}
+
+.list-container .lc-header .h-title {
+    text-align: center;
+    font-family: "UTM Avo Bold", arial, sans-serif;
+    color: #0274c3;
+    position: relative
+}
+
+#listFreeCourse .lc-content {
+    padding: 10px 40px;
+    width: 100%;
+    text-align: center
+}
+
+#listFreeCourse .lc-content .lc-item {
+    width: 264px;
+    display: inline-block;
+    vertical-align: top
+}
+
+#listFreeCourse .lc-content .table tr>th {
+    background: rgba(0, 0, 0, 0) url("../img/images/modal/list-head.png") no-repeat scroll center center;
+    background-size: 100% 100%;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: "UTM Avo Bold", arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 30px;
+    border-bottom-width: 0;
+    text-align: center
+}
+
+#listFreeCourse .lc-content .board-2 .table tr>th {
+    font-size: 16px
+}
+
+#listFreeCourse .lc-content .table tr>th.total {
+    background: rgba(0, 0, 0, 0) url("../img/images/modal/th-red.jpg") no-repeat scroll center center;
+    background-size: 100% 100%
+}
+
+#listFreeCourse .lc-content .table {
+    border: 1px solid #fbb907;
+    border-top: none;
+    text-align: center
+}
+
+#listFreeCourse .lc-content .table tr, #listFreeCourse .lc-content .table th, #listFreeCourse .lc-content .table td {
+    border-color: #fbb907
+}
+
+#listFreeCourse .lc-content .table tbody tr:nth-child(even) {
+    background-color: #e9e9e9
+}
+
+#listFreeCourse .lc-content .table tbody tr td {
+    border-top: none;
+    line-height: 2
+}
+
+#listFreeCourse .lc-content .table tbody tr:nth-child(1) td:first-child span, #listFreeCourse .lc-content .table tbody tr:nth-child(2) td:first-child span, #listFreeCourse .lc-content .table tbody tr:nth-child(3) td:first-child span {
+    position: relative;
+    z-index: 3;
+    display: block;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center
+}
+
+#listFreeCourse .lc-content .table tr>th:first-child {
+    width: 50px
+}
+
+#listFreeCourse .lc-content .table tbody tr:nth-child(1) td:first-child span:before, #listFreeCourse .lc-content .table tbody tr:nth-child(2) td:first-child span:before, #listFreeCourse .lc-content .table tbody tr:nth-child(3) td:first-child span:before {
+    position: absolute;
+    background: rgba(0, 0, 0, 0) url("../img/images/modal/medal-gold.png") no-repeat scroll center 0;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    content: ''
+}
+
+#listFreeCourse .lc-content .table tbody tr:nth-child(2) td:first-child span:before {
+    background: rgba(0, 0, 0, 0) url("../img/images/modal/medal-sliver.png") no-repeat scroll center 0
+}
+
+#listFreeCourse .lc-content .table tbody tr:nth-child(3) td:first-child span:before {
+    background: rgba(0, 0, 0, 0) url("../img/images/modal/medal-copper.png") no-repeat scroll center 0
+}
+
+#listFreeCourse .lc-content .table tbody tr td:nth-child(1) {
+    width: 35px
+}
+
+#listFreeCourse .lc-content .table tbody tr td:last-child, #listFreeCourse .lc-content .table thead tr th:last-child {
+    border-top: none;
+    border-right: none
+}
+
+.rules {
+    margin-left: 180px;
+    margin-top: 25px;
+    min-height: 80px;
+    font-size: 16px
+}
+
+.rules.cheer {
+    text-align: center;
+    margin-left: 0;
+    font-size: 18px
+}
+
+#listFreeCourse .hm-slide .carousel-control.left, #listFreeCourse .hm-slide .carousel-control.right {
+    height: 70px;
+    margin-top: 10px;
+    opacity: 1
+}
+
+#listFreeCourse .hm-slide .carousel-control.left img {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH"
+}
+
+#listFreeCourse .hm-slide .item {
+    text-align: center
+}
+
+#listFreeCourse .hm-slide .item .itm-wrapper {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: #0072bc;
+    border-radius: 50px;
+    padding: 3px
+}
+
+#listFreeCourse .hm-slide .item .itm-wrapper span {
+    height: 64px;
+    width: 64px;
+    border: 1px solid white;
+    display: block;
+    border-radius: 50px;
+    color: white;
+    line-height: 55px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "UTM Avo Bold", arial, sans-serif
+}
+
+#listFreeCourse .lc-filter {
+    display: block;
+    padding: 10px 65px;
+    margin-top: 20px
+}
+
+.lc-filter .filter-left {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+.lc-filter .filter-left .dropdown-toggle {
+    border-radius: 0;
+    box-shadow: 2px 2px 3px rgba(110, 110, 110, 0.75);
+    min-width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: "UTM Avo Bold", arial, sans-serif
+}
+
+.lc-filter .filter-left .dropdown-menu {
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid #0072bc;
+    padding: 0
+}
+
+.lc-filter .filter-left .dropdown-menu>li>a {
+    height: 40px;
+    line-height: 30px
+}
+
+.lc-filter .filter-left .dropdown-menu>li>a:focus, .lc-filter .filter-left .dropdown-menu>li>a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #0072bc;
+    font-family: "UTM Avo Bold", arial, sans-serif
+}
+
+.filter-right form {
+    position: relative
+}
+
+.filter-right .search-submit {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    display: inline-block;
+    margin-top: -15px;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    top: 50%
+}
+
+.filter-right .form-control {
+    height: 40px;
+    width: 260px;
+    border: 1px solid #0072bc
+}
+
+.control-group {
+    margin-bottom: 10px
+}
+
+.modal-body .control-group:last-child {
+    margin-bottom: 0
+}
+
+.control-group label {
+    float: left;
+    font-weight: normal;
+    line-height: 30px;
+    min-width: 135px;
+    margin: 0
+}
+
+.control-group textarea, .control-group input[type="text"], .control-group input[type="email"], .control-group input[type="password"], .control-group select {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 2px 8px;
+    width: 283px
+}
+
+.control-group textarea.error, .control-group input[type="text"].error, .control-group input[type="email"].error, .control-group input[type="password"].error, .control-group select.error, .control-group .error .select2-selection {
+    background: #ffe9e9 none repeat scroll 0 0;
+    border-color: #cc3333
+}
+
+.control-group .error-message {
+    color: red;
+    font-style: italic;
+    line-height: 1.25;
+    margin-top: 5px
+}
+
+.control-group textarea.valid, .control-group input[type="text"].valid, .control-group input[type="email"].valid, .control-group input[type="password"].valid, .control-group select.valid, .control-group .valid .select2-selection {
+    background: #cdfccd none repeat scroll 0 0;
+    border-color: #54b551
+}
+
+.control-group textarea {
+    height: 108px
+}
+
+.control-group input[type="text"], .control-group input[type="email"], .control-group input[type="password"], .control-group select {
+    height: 28px;
+    width: 100%
+}
+
+.control-group input[type="checkbox"], .control-group input[type="radio"] {
+    float: left;
+    margin: 14px 0
+}
+
+.control-mwr {
+    float: right;
+    width: 280px
+}
+
+.reg-submit {
+    background: #31a9a3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    height: 34px;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    width: 125px
+}
+
+#userInfoConfirmModal .modal-header {
+    min-height: 70px;
+    position: relative
+}
+
+#userInfoConfirmModal .modal-header .modal-logo {
+    position: absolute;
+    display: block;
+    width: 50px
+}
+
+#userInfoConfirmModal.hocmai-modal .modal-title {
+    font-size: 20px;
+    font-family: 'UTM Avo Bold', arial, helvetica, sans-serif;
+    line-height: 50px
+}
+
+#userInfoConfirmModal .modal-dialog {
+    width: 100%;
+    max-width: 480px
+}
+
+#userInfoConfirmModal .control-mwr {
+    width: 300px;
+    float: left
+}
+
+#userInfoConfirmModal.hocmai-modal .modal-title span {
+    color: #12f913;
+    font-size: 18px
+}
+
+#successModal .share-btn {
+    padding: 10px 20px 10px 10px
+}
+
+#successModal.hocmai-modal .modal-title {
+    font-size: 20px;
+    font-weight: bolder
+}
+
+#successModal.hocmai-modal {
+    font-size: 16px
+}
+
+.test-btn {
+    display: inline-block;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #006cff;
+    padding: 10px 40px;
+    border-radius: 3px
+}
+
+#successModal .share-md {
+    text-align: center;
+    margin-top: 20px
+}
+
+#successModal .share-btn .icon {
+    font-size: 36px;
+    font-family: "UTM Avo Bold", arial, sans-serif;
+    border-right: 1px solid white;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-left: 0
+}
+
+#successModal .share-btn span {
+    display: inline-block;
+    margin-left: 10px
+}
+
+.score-group {
+    padding-left: 135px;
+    margin: 20px auto;
+    text-align: center;
+    padding-right: 15px
+}
+
+.score-group .sg-title {
+    text-align: center;
+    font-family: "UTM Avo Bold", arial, sans-serif;
+    margin-bottom: 15px
+}
+
+.score-group .sg-elements {
+    width: 50%;
+    padding: 5px 5px 5px 30px;
+    display: inline-block;
+    margin: -5px
+}
+
+.score-group .control-group label {
+    width: 90px;
+    min-width: 90px
+}
+
+.score-group .control-group input[type="text"] {
+    width: 100px
+}
+
+.confirm-info {
+    width: 100%
+}
+
+.schedule {
+    width: 35%;
+    float: left
+}
+
+.issues-group {
+    text-align: center
+}
+
+.schedule-top {
+    margin-top: 20px;
+    padding-left: 40px
+}
+
+.schedule-top .schedule-day p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.schedule-top .schedule-day h3 {
+    font-size: 22px;
+    color: red
+}
+
+.schedule-time {
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+.schedule-time strong {
+    font-size: 18px;
+    color: red
+}
+
+.schedule-subjects {
+    font-size: 16px;
+    margin-bottom: 30px
+}
+
+.schedule-bot {
+    padding-top: 20px;
+    border-top: 1px solid #808080;
+    margin-left: 10px;
+    padding-left: 10px
+}
+
+#userInfoConfirmModal .reg-submit {
+    margin: auto
+}
+
+.notice {
+    width: 370px;
+    margin: 20px auto
+}
+
+.notice ul {
+    list-style-type: disc
+}
+
+#signupForm .social-login {
+    text-align: center;
+    margin-bottom: 15px
+}
+
+#signupForm .social-login li {
+    display: inline-block;
+    margin: 0 10px
+}
+
+#signupForm #get-code {
+    height: 28px;
+    padding: 3px 12px;
+    vertical-align: top
+}
+
+#signupForm .control-mwr {
+    width: 260px
+}
+
+.control-group {
+    position: relative
+}
+
+.signup-tooltip {
+    display: none;
+    position: absolute;
+    right: -269px;
+    top: -10px;
+    color: #000000;
+    z-index: 100000;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #bbb #bbb #a8a8a8;
+    width: 255px
+}
+
+.signup-tooltip-content {
+    display: block;
+    position: relative;
+    padding: 16px
+}
+
+.signup-tooltip-content:before {
+    content: '';
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 10px;
+    left: -9px;
+    width: 0;
+    z-index: 1;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 9px solid #bbb
+}
+
+.signup-tooltip-content ul {
+    list-style-type: disc;
+    padding-left: 20px
+}
+
+.signup-tooltip-content:after {
+    content: '';
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+    top: 11px;
+    left: -8px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #fff;
+    z-index: 2
+}
+
+#get-pass-code {
+    height: 28px;
+    padding: 3px 12px;
+    vertical-align: top
+}
+
+#testScheduleModal .modal-body {
+    background: transparent url("../img/images/v2/board.png") no-repeat scroll center 0;
+    min-height: 430px;
+    color: white;
+    text-align: center
+}
+
+#testScheduleModal .modal-body h4 {
+    margin-top: 40px;
+    font-weight: 300
+}
+
+#testScheduleModal .modal-body h2 {
+    text-transform: uppercase;
+    font-size: 32px
+}
+
+#testScheduleModal .modal-body p {
+    font-size: 15px;
+    margin-bottom: 45px
+}
+
+#testScheduleModal .modal-body p span {
+    color: #f7fa00;
+    font-size: 20px
+}
+
+#testScheduleModal .modal-body ul {
+    padding-left: 180px;
+    text-align: left;
+    line-height: 1.5
+}
+
+#testScheduleModal .modal-body ul li {
+    margin: 15px 0
+}
+
+#testScheduleModal .modal-body ul li i {
+    margin-right: 10px
+}
+
+.hm-cer {
+    position: absolute;
+    display: block;
+    bottom: 30px;
+    right: 30px
+}

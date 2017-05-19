@@ -1,0 +1,93 @@
+.mega-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mega-menu > li > a {
+    color: #000000;
+    display: block;
+    padding: 8px 0;
+    height: 32px;
+}
+
+.mega-menu > li > a > i {
+    color: #918f8f;
+    padding: 0 10px 0 5px;
+}
+
+.mega-menu > li > a.active > i {
+    color: #000000;
+}
+
+.mega-menu > li > a.active {
+    background-color: #ebeaea;
+    color: #000000;
+}
+
+.sub-menu {
+    display: none;
+    left: 100%;
+    position: absolute;
+    top: -1px;
+    z-index: 2;
+    width: 784px;
+    color: white;
+    padding: 0 45px;
+    overflow: hidden;
+    clear: both;
+    min-height: calc(100% + 2px);
+}
+
+.sub-menu a {
+    color: white;
+}
+
+
+.menu-column {
+    overflow: hidden;
+    clear: both;
+    height: auto;
+    display: block;
+}
+
+.menu-column .menu-col {
+    padding: 0 0 15px 0;
+}
+
+.menu-column > .menu-title,
+.menu-list > .menu-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.menu-col > .menu-column > .menu-title,
+.menu-col > .menu-list > .menu-title {
+    color: #5ee0ff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.menu-list > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list > ul > li {
+    margin-bottom: 10px;
+}
+
+.menu-list > ul > li i {
+    margin-right: 15px;
+}
+
+.no-link {
+    color: #ddd;
+}

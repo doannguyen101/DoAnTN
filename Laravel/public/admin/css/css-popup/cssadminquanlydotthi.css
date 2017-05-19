@@ -1,0 +1,123 @@
+ #over {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+ 
+ .button{
+    display: inline-block;
+    min-width: 46px;
+    text-align: center;
+    color: #444;
+    font-size: 14px;
+    font-weight: 700;
+    height: 36px;
+    padding: 0px 8px;
+    line-height: 36px;
+    border-radius: 4px;
+    border: 1px solid #DCDCDC;
+    background-color: #F5F5F5;
+  
+}
+ .login{
+	 background-color:white;
+	 display:none;
+	 text-align:center;
+	 width:350px;
+	 height:400px;
+	 border-radius: 10px;
+
+ }
+
+.login
+{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding-bottom:5px;
+    position:absolute;
+    z-index:99999;
+    top:30%;
+    left:50%;
+    margin-left:-100px;
+}
+ .header{ 
+    float:left;
+	width:100%;
+    background-color: #5cb85c;
+    color: white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+ .taikhoan{
+	padding: 40px 50px;
+	height:250px;
+}
+.username{
+	float:left;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+
+#txt{
+	margin-top:5px;
+	clear:both;
+	width:250px;
+	float:left;
+	height:30px;
+	border-radius: 7px;
+}
+.cbb{
+	margin-top:5px;
+	clear:both;
+	width:265px;	
+	float:left;
+	height:40px;
+	border-radius: 7px;
+}
+.btnthem{
+	background-color:#5cb85c;
+	color:white;
+	clear:both;
+	float:left;
+	width:100%;
+	height:30px;
+	border-radius: 7px;
+}
+.btnthoat{
+	background-color:#5cb85c;
+	color:white;
+	clear:both;
+	float:left;
+	width:100%;
+	height:30px;
+	border-radius: 7px;
+
+
+}
+a {
+	color: #337ab7;
+    text-decoration: none;
+}
+#tomtat{
+	width:700px;
+}
+#txttieude{
+	width:700px;
+}
+#editor1{
+	width:700px;
+}
+#maloaitintuc{
+	float:left;
+	height:50px;
+}
+input#tenhinh{
+	display:none;
+	position:absolute;
+}

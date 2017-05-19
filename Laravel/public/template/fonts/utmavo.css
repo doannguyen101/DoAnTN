@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'UTM Avo';
+	src: url('./utmavo/utmavo.eot');
+	src: local('UTM Avo'), url('./utmavo/utmavo.woff') format('woff'), url('./utmavo/utmavo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('./utmavo/utm-avobold.eot');
+    src: local('☺'), url('./utmavo/utm-avobold.woff') format('woff'), url('./utmavo/utm-avobold.ttf') format('truetype'), url('./utmavo/utm-avobold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UTM Avo Bold';
+    src: url('./utmavo/utm-avobold.eot');
+    src: local('☺'), url('./utmavo/utm-avobold.woff') format('woff'), url('./utmavo/utm-avobold.ttf') format('truetype'), url('./utmavo/utm-avobold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,128 @@
+
+
+body{
+	font-family: sans-serif;
+	color:#333;
+}
+#menu ul{
+	list-style-type:none;
+	background: #1f5688;
+	text-align: center;
+}
+#menu ul li{
+	
+	color:#f1f1f1;
+	display:inline-table;	
+	width:120px;
+	height:40px;
+	line-height:40px;
+	position: relative;
+}
+#menu ul li a{
+	width:200px;
+	color:#f1f1f1;
+	text-decoration:none;
+	display: block;
+}
+#menu ul li a:hover{
+	background:#f1f1f1;
+	color:#333;
+	
+}
+#menu ul li > .sub-menu{
+	width:200px;
+	padding:0;
+	margin:0;
+	display:none;
+	position:absolute;
+}
+#menu ul li:hover  .sub-menu{
+	display: block;
+}
+.div_Danh_Sach_San_Pham{
+	text-align:center;
+}
+.Bang1{
+	float:left;
+	text-align:center;
+}
+.Bang1  td{
+	width:110px;
+	border-radius: 4px;
+    border: 1px solid #DCDCDC;
+}
+.Bang2{
+	float:left;
+	text-align:center;
+}
+.Bang2  td{
+	width:155px;
+	border-radius: 4px;
+    border: 1px solid #DCDCDC;
+}
+.Bang3{
+	float:left;
+	text-align:center;
+}
+.Bang3  td{
+	width:160px;
+	border-radius: 4px;
+    border: 1px solid #DCDCDC;
+}
+.Bang4{
+	float:left;
+	text-align:center;
+}
+.Bang4  td{
+	width:150px;
+	border-radius: 4px;
+    border: 1px solid #DCDCDC;
+}
+.Bangpk{
+	float:left;
+	text-align:center;
+}
+.Bangpk  td{
+	padding:10px;
+	width:200px;
+	border-radius: 4px;
+    border: 1px solid #DCDCDC;
+}
+.Bangpk  td input{
+	width:200px;
+	height:50;
+}
+.select{
+	width:177px;
+	height:21px;
+}
+.them{
+	clear:both;
+	text-align:center;
+}
+.btnthem{
+	display: inline-block;
+    min-width:300px;
+    text-align: center;
+    color: #444;
+    font-size: 30px;
+    font-weight: 700;
+    height: 50px;
+    padding: 0px 8px;
+    line-height: 36px;
+    border-radius: 4px;
+    border: 1px solid #DCDCDC;
+
+}
+.Phantrang {
+	text-align:center;
+}
+.Phantrang a{
+	background-color:#1f5688;
+	color:white;
+	padding:8px;
+	margin-right:3px;
+}
+.Phantrang a:hover{
+	background-color:red;
+}

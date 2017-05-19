@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'UTM Avo Bold';
+    src: url('fonts/utm-avobold.eot');
+    src: local('☺'), url('fonts/utm-avobold.html') format('woff'), url('fonts/utm-avobold-2.html') format('truetype'), url('fonts/utm-avobold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'UTM Bebas';
+    src: url('fonts/UTM%20Bebas%20.eot');
+    src: local('☺'), url('fonts/UTM%20Bebas%20.html') format('woff'), url('fonts/UTM%20Bebas%20-2.html') format('truetype'), url('fonts/UTM%20Bebas%20.svg') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'DUEPUNTOZEROBOLD';
+    src: url('fonts/UTM%20DUEPUNTOZEROBOLD.eot');
+    src: local('☺'), url('fonts/UTM%20DUEPUNTOZEROBOLD.html') format('woff'), url('fonts/UTM%20DUEPUNTOZEROBOLD-2.html') format('truetype'), url('fonts/UTM%20DUEPUNTOZEROBOLD.svg') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'DUEPUNTOZERO';
+    src: url('fonts/UTM%20DUEPUNTOZERO.eot');
+    src: local('☺'), url('fonts/UTM%20DUEPUNTOZERO.html') format('woff'), url('fonts/UTM%20DUEPUNTOZERO-2.html') format('truetype'), url('fonts/UTM%20DUEPUNTOZERO.svg') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'SOUTHAMTON';
+    src: url('fonts/FS%20SOUTHAMTON.eot');
+    src: local('☺'), url('fonts/FS%20SOUTHAMTON.html') format('woff'), url('fonts/FS%20SOUTHAMTON-2.html') format('truetype'), url('fonts/FS%20SOUTHAMTON.svg') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'AHKIOBOLD';
+    src: url('fonts/FS%20AHKIO-BOLD.eot');
+    src: local('☺'), url('fonts/FS%20AHKIO-BOLD.html') format('woff'), url('fonts/FS%20AHKIO-BOLD-2.html') format('truetype'), url('fonts/FS%20AHKIO-BOLD.svg') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
